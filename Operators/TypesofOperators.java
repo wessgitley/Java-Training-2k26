@@ -32,7 +32,7 @@ public class TypesofOperators {
     System.out.println("Amount to be disbursed: " + balance);
   }
 
-  public static void comparisionoperators(string[] args) {
+  public static void comparisonoperators(String[] args) {
     int a = 10, b = 5, c = 10;
 
     System.out.println("a == c: " + (a == c));
@@ -51,10 +51,18 @@ public class TypesofOperators {
   }
 
   public static void logicalOperators(String[] args) {
-    System.out.println();
-    int balance = true;
-    int charges = true;
-    int withdrawalAmount = true;
+    boolean isSunny = true;
+    boolean isWeekend = false;
+    int temperature = 25;
+
+    // AND (&&) - both must be true
+    System.out.println("Good Weather: " + (isSunny && temperature > 20)); // true
+    // OR((|) -either must be true
+    System.out.println("Outdoor day: " + (isSunny || isWeekend)); // true
+    // NOT(!) -reverses the value
+    System.out.println("Not sunny: " + !isSunny); // false
+    // Complex condition
+    System.out.println("Perfect day: " + (isSunny && temperature > 20 && !isWeekend)); // true
   }
 
 }
