@@ -24,4 +24,26 @@ public class OverloadingDemo {
   public static int add(int a, int b, int c) {
     return a + b + c;
   }
+
+  // Method Overloading rules
+  // 1.Different number of parameters
+  public static void print(String message) {
+  }
+
+  public static void print(String message, int times) {
+  }
+
+  // 2.Different parameter types
+  public static void process(int number) {
+  }
+
+  public static void process(String text) {
+  }
+
+  // 3. Different parameter order
+  public static void create(int id, String name) {
+  }
+
+  public static void create(String name, int id) {
+  }
 }
