@@ -1,5 +1,8 @@
 package Parameters;
 
+//Parameter -> what is defined inside the () in the method signature
+//Arguments -> the actual values passed when calling the method
+
 public class ParameterDemo {
   public static void main(String[] args) {
     // Arguments: 5, 3
