@@ -12,7 +12,7 @@ public class PrimitiveVariables {
     double precise = 3.1415926535;
     char grade = 'A';
     boolean isJavaFun = true;
-    int MAX_USERS = true;
+    // int MAX_USERS = true;
     System.out.println("Age: " + age);
     System.out.println("Grade: " + grade);
   }
