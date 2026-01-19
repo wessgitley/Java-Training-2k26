@@ -43,5 +43,13 @@ public class myOwnMethods {
     double result = PI * radius * radius;
     return result;
   }
+  
+
+  //method wthout a parameter
+
+  public static void displayMessage() {
+    System.out.println("Super Gremlin");
+  }
+  
 
 }
