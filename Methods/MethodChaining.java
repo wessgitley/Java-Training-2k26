@@ -31,4 +31,36 @@ public class MethodChaining {
     return String.format(
         "Final Score: %.2f", score);
   }
+
+  // Method errors
+  // 1. Missing return statement
+  public static int badMethod(int x) {
+    if (x > 0) {
+      return x;
+    }
+    // What if x <= 0? No return value!
+  }
+
+  // 2.Wrong return type
+  public static int calculate() {
+    double result = 3.14;
+    return result;
+    // double cannot be returned as int
+  }
+
+  // BEST PRACTICES
+  // 1.Use descriptive names
+  // for example: public static double calculateCircleArea(double radius)
+  // 2.Use single responsibility
+  public static boolean isValidEmail(String email)
+  // Avoid - doing too much
+  public static void processUserDataAndSendEmail()
+  //3.use appropriate parameters
+  // Good - reasonable number of parameters
+public static void createUser(String name, String email)
+// Avoid - too many parameters
+public static void updateProfile(String name, String email,int age, String address, String phone, boolean isActive)
+
+
+
 }
