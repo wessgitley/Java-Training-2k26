@@ -26,6 +26,7 @@ public class OverloadingDemo {
   }
 
   // Method Overloading rules
+  // VALID OVERLOADING
   // 1.Different number of parameters
   public static void print(String message) {
   }
@@ -46,4 +47,14 @@ public class OverloadingDemo {
 
   public static void create(String name, int id) {
   }
+
+  // INVALID OVERLOADING -> these are not allowed
+  public static int calculate(int a, int b) {
+    return a + b;
+  }
+
+  public static double calculate(int a, int b) {
+    return a + b;
+  }
+
 }
