@@ -8,8 +8,8 @@ public class ScopeDemo {
     int mainVar = 50; // Local to main method
     if (true) {
       int blockVar = 25; // Only exists in this block
-      System.out.println(blockVar); //
-      System.out.println(mainVar); //
+      System.out.println(blockVar);
+      System.out.println(mainVar);
     }
     // System.out.println(blockVar); // Error - out of scope
   }
