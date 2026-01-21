@@ -52,15 +52,24 @@ public class MethodChaining {
   // 1.Use descriptive names
   // for example: public static double calculateCircleArea(double radius)
   // 2.Use single responsibility
-  public static boolean isValidEmail(String email)
+  public static boolean isValidEmail(String email) {
+
+  }
+
   // Avoid - doing too much
-  public static void processUserDataAndSendEmail()
-  //3.use appropriate parameters
+  public static void processUserDataAndSendEmail() {
+
+  }
+
+  // 3.use appropriate parameters
   // Good - reasonable number of parameters
-public static void createUser(String name, String email)
-// Avoid - too many parameters
-public static void updateProfile(String name, String email,int age, String address, String phone, boolean isActive)
+  public static void createUser(String name, String email) {
 
+  }
 
+  // Avoid - too many parameters
+  public static void updateProfile(String name, String email, int age, String address, String phone, boolean isActive) {
+
+  }
 
 }
