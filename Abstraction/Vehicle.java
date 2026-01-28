@@ -12,7 +12,7 @@ public abstract class Vehicle {
   }
 
   // concrete method
-  public void displayInfor() {
+  public void displayInfo() {
     System.out.println(model + " " + year);
   }
 
