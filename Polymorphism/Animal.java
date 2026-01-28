@@ -40,5 +40,6 @@ class Cat extends Animal {
 
 // Main class--variable--declare the constructor--method that prints the
 // stmts--inheritance--declare the parent class constructor with the same class
+// name and call it using the super keyword
 // name as the child class--override the method of the parent class--inside the
 // println, concatenate the constructor variable with the rest of the statement.
